@@ -8,12 +8,13 @@ def collatz(number):
         print(number)
         return(number)
 
-number = input('enter a number')
-number = int(number)
-collatz(number)
-if number == 1:
-    print('finished!')
-
+inputNumber = input('enter a number ')
+number = int(inputNumber)
+if number != 1:
+    collatz(number)
+elif number == 1:
+    print(number)
+    
 
 
 
