@@ -10,13 +10,8 @@ def collatz(number):
 
 inputNumber = input('enter a number ')
 number = int(inputNumber)
-if number != 1:
+while number != 1:
     collatz(number)
-elif number == 1:
+
+else:
     print(number)
-    
-
-
-
-
-
